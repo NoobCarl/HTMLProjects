@@ -1,0 +1,24 @@
+.cars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    gap: 100px;
+}
+.car{
+    border: 3px solid #211A1C;
+    background-color: #211A1C;
+    color: #C39B7D;
+
+}
+.car-image{
+    display: flex;
+}
+.car-image-description{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+    margin: 30px;
+    gap: 30px;
+}
